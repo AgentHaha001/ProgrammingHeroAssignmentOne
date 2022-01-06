@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-color: rgba(255, 253, 240, 0.733);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.page_container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+  padding: 60px;
+}
+
+.spacer {
+  height: 40px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.vr_line {
+  border: 2px solid rgb(255, 74, 74);
+  height: 80px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.headlines {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-family: Ubuntu;
+  /* line-height: 60px; */
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: rgba(165, 42, 42, 0.884);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.img_container {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: brown;
+  opacity: 0.4;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.863);
+  font-size: 16px;
+  word-spacing: 3px;
+  /* letter-spacing: 1px; */
+  line-height: 22px;
+}
+
+.section_two_headline {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Roboto;
+  color: rgba(0, 0, 0, 0.849);
+}
+
+.oneThirdColumn {
+  width: 33%;
+  padding: 20px;
+}
+
+.mission_content {
+  /* display: none; */
+  border-radius: 7px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(137, 43, 226, 0.377);
+  /* padding: 10px 20px; */
+  color: rgb(0, 0, 0);
+}
+
+.mission_img {
+  width: 130px;
+  height: 130px;
+}
+.mission_text_container {
+  padding: 20px;
+}
+
+.mission_text {
+  font-family: Roboto;
+  font-size: 16px;
+  color: rgb(43, 42, 42);
+  word-spacing: 2px;
+  letter-spacing: 0.2px;
+}
+
+.section_img {
+  height: 100%;
+  width: 100%;
+}
+.section_three_text {
+  line-height: 30px;
+  margin: 15px 0;
+}
+.section_three_header {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-family: Roboto;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+.showcase_text_container {
+  font-family: Ubuntu;
+  padding: 20px;
+}
+.showcase_text_container h2 {
+  height: 50px;
+  color: rgb(8, 8, 46);
+}
+
+.showcase_text_container .mission_text {
+  height: 90px;
+}
+
+.message_section h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(18, 7, 59);
+  text-decoration: underline;
+}
+
+.message_section .w-40 {
+  margin-top: 60px;
+}
+
+.message_section a {
+  color: rgb(89, 133, 255);
+  text-decoration: none;
+}
+
+form label {
+  font-size: 16px;
+  color: rgb(36, 35, 35);
+  font-weight: 700;
+}
+
+.inputField {
+  height: 50px;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(103, 169, 255, 0.493);
+  background-color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.footer {
+  background-color: rgb(3, 1, 12);
+  padding: 30px;
+  text-align: center;
+  /* margin-bottom: 1px; */
+}
+
+.footer h2 {
+  font-family: "Moon Dance";
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  letter-spacing: -0.1px;
+}
+
+.footer h2 span {
+  color: brown;
+}
+
+.footer p {
+  color: white;
+}
